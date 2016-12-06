@@ -10,7 +10,7 @@
 ?>
 
 <div class="col span_1_of_3">
-    bebebe
+
 	<article id="post-<?php the_ID(); ?>" <?php post_class('front-page-card'); ?>>
 		<header class="entry-header">
 			<?php
