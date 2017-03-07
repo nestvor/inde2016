@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="9cbd113f-333a-4ed5-919e-004dbb8cc364" name="indeplatforma.org" url="http://staging.indeplatforma.org">
-        <fileTransfer host="indeplatforma.org" port="21" rootFolder="/subdomains/staging/httpdocs/wp-content/themes/inde2016">
+        <fileTransfer host="indeplatforma.org" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
