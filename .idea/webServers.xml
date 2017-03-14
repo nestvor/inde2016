@@ -2,12 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="9cbd113f-333a-4ed5-919e-004dbb8cc364" name="indeplatforma.org" url="http://staging.indeplatforma.org">
-        <fileTransfer host="indeplatforma.org" port="21">
+      <webServer id="9cbd113f-333a-4ed5-919e-004dbb8cc364" name="vicic.si/inde" url="https://vicic.si/inde">
+        <fileTransfer host="vicic.si" port="232" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
-          <option name="port" value="21" />
+          <option name="port" value="232" />
         </fileTransfer>
       </webServer>
     </option>
