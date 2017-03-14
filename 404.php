@@ -25,7 +25,7 @@ get_header(); ?>
 
 						the_widget( 'WP_Widget_Recent_Posts' );
 
-						// Only show the widget if site has multiple categories.
+						// Only show the widget if site has multiple categories..
 						if ( inde2016_categorized_blog() ) :
 					?>
 
