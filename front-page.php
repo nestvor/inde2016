@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<div class="section group latest-cards">
-kkkkkk
+            <div>IVO IVO IVO ČAKA NA BANKINO</div>
 		<?php
 			/* display the 3 latest posts */
 			
