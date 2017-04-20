@@ -124,27 +124,17 @@ add_action( 'widgets_init', 'inde2016_widgets_init' );
  * Enqueue scripts and styles.
  */
 function inde2016_scripts() {
-	/* Responsive grid (http://www.responsivegridsystem.com/) */
-	wp_enqueue_style( 'responsive-grid-system-col', get_template_directory_uri() . '/css/col.css' );
-	wp_enqueue_style( 'responsive-grid-system-2cols', get_template_directory_uri() . '/css/2cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-3cols', get_template_directory_uri() . '/css/3cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-4cols', get_template_directory_uri() . '/css/4cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-5cols', get_template_directory_uri() . '/css/5cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-6cols', get_template_directory_uri() . '/css/6cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-7cols', get_template_directory_uri() . '/css/7cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-8cols', get_template_directory_uri() . '/css/8cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-9cols', get_template_directory_uri() . '/css/9cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-10cols', get_template_directory_uri() . '/css/10cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-11cols', get_template_directory_uri() . '/css/11cols.css' );
-	wp_enqueue_style( 'responsive-grid-system-12cols', get_template_directory_uri() . '/css/12cols.css' );
-	
+	/* bootstrap */
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap-theme', get_template_directory_uri() . '/css/bootstrap-theme.min.css' );
+
 	/* font-awesome*/
 	wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css' );
 	
 	/* core template style */
 	wp_enqueue_style( 'inde2016-style', get_stylesheet_uri() );
 	
-	//wp_enqueue_script( 'inde2016-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'inde2016-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 	

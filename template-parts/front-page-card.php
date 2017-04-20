@@ -9,7 +9,7 @@
 
 ?>
 
-<div class="col span_1_of_3">
+<div class="col-md-4">
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class('front-page-card'); ?>>
 		<header class="entry-header">

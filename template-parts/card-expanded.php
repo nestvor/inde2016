@@ -9,7 +9,7 @@
 
 ?>
 
-<div class="col span_2_of_3">
+<div class="col-md-8">
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="entry-header">
