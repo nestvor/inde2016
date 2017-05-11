@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-        ivotov test lolol
+
 		<div class="section group latest-cards">
             <div class="row">
                 <?php
