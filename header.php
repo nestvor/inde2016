@@ -55,8 +55,3 @@
             </div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
-
-    <section id="main-content">
-        <div class="row">
-            <div class="col-md-offset-2 col-md-6">
-                <div id="content" class="site-content">

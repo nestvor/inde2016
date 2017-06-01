@@ -10,12 +10,6 @@
  */
 
 ?>
-
-	            </div><!-- #content -->
-            </div>
-        </div>
-    </section><!-- #main-content -->
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
         <div class="row">
             <div class="col-md-offset-4 col-md-8">
@@ -25,6 +19,7 @@
                     <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'inde2016' ), 'inde2016', '<a href="http://indeplatforma.org" rel="designer">hankey</a>' ); ?>
                 </div><!-- .site-info -->
             </div>
+        </div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

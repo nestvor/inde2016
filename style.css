@@ -785,6 +785,17 @@ a:active {
 	margin-right: auto;
 }
 
+@media only screen and (min-width: 992px) {
+	.is-table-row {
+		display: table;
+	}
+	.is-table-row [class*="col-"] {
+		float: none;
+		display: table-cell;
+		vertical-align: top;
+	}
+}
+
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
@@ -870,43 +881,13 @@ a:active {
 }
 
 article.front-page-card {
-	position: relative;
-	border-bottom: 1px solid black;
-	padding-bottom: 60px;
-}
-
-@media screen and (min-width: 480px) {
-	article.front-page-card {
-		height: 0;
-		padding-bottom: 470%;
-	}	
-}
-
-@media screen and (min-width: 768px) {
-	article.front-page-card {
-		height: 0;
-		padding-bottom: 265%;
-	}	
-}
-
-@media screen and (min-width: 1024px) {
-	article.front-page-card {
-		height: 0;
-		padding-bottom: 180%;
-	}	
-}
-
-@media screen and (min-width: 1280px) {
-	article.front-page-card {
-		height: 0;
-		padding-bottom: 145%;
-	}	
 }
 
 article.front-page-card .entry-title {
-	overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .card-minimizer {
@@ -923,8 +904,6 @@ article.front-page-card .entry-title {
 }
 
 .card-footer {
-	position: absolute;
-	bottom: 0;
 }
 
 .entry-meta {
