@@ -10,6 +10,9 @@
           <option name="port" value="232" />
         </fileTransfer>
       </webServer>
+      <webServer id="9034b1e6-2fcb-4707-8e03-132e2f0a4c44" name="xampp" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="D:\xampp\htdocs\WP\wp-content\themes\inde2016" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </project>

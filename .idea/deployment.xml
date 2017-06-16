@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="vicic.si/inde">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="xampp">
     <serverData>
       <paths name="vicic.si/inde">
         <serverdata>
           <mappings>
             <mapping deploy="/var/www/clients/client0/vicic.si/web/inde/wp-content/themes/inde2016" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xampp">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
