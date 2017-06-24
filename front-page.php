@@ -19,17 +19,6 @@ get_header(); ?>
                                 <main id="main" class="site-main" role="main">
 
                                     <div class="section group latest-cards">
-                                        <!--                                        <div class="row is-table-row">-->
-                                        <!--                                            <div class="col-md-4">-->
-                                        <!--                                                Dobili smo se na sejtanik večerji s celo paleto ledenih čajev in družabnih iger, na kateri smo zbirali prispevke za dokončno obnovo strehe. Dež nas je pregnal v notranje prostore, kjer smo se vseeno imeli fino. Hvala vsem, ki ste prišli in nam s prispevki pomagali priti korak bližje zadanim strEšnim ciljem!   Menendes brothers […]-->
-                                        <!--                                            </div>-->
-                                        <!--                                            <div class="col-md-4">-->
-                                        <!--                                                Tudi Inde-janci nismo mogli ostati ravnodušni na vse bolj odmevno in bližajočo se problematiko beguncev, ki pomoč iščejo v Evropi. Ker zbirnega centra v Kopru ni, smo se odločili organizirati še sami in tako ustanovili zbirni center za pomoč v prostorih Inde in sicer od 16h-19h vsak pondeljek in sredo. Zaenkrat potrebujejo, kar je spodaj […]-->
-                                        <!--                                            </div>-->
-                                        <!--                                            <div class="col-md-4">-->
-                                        <!--                                                rage prijateljice in prijatelje naprošamo, da nam NE prinašate več kavčev. Hvaležni smo za vsakega, ki smo ga do sedaj dobili, vendar za enkrat za nove prišleke nimamo več prostora. 🙂 Enako velja tudi za oblačila, ki so do zdaj romala v free shop – slednjega smo začasno ukinili. Namesto tega pa lahko odvečne obleke, […]-->
-                                        <!--                                            </div>-->
-                                        <!--                                        </div>-->
                                         <div class="row is-table-row">
                                             <?php
                                             /* display the 3 latest posts */
